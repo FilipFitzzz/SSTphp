@@ -123,9 +123,36 @@ ubavMesec("Januari");
 
 // *************************************************************************************
 
+$q = 10 < 5 || ('2' == 2 && (!(4 >= 8 || 55*2 < 150) && 10 === 10 ));
 
+echo "<br/>";
+
+function mat($a, $b) {
+    if(($a + $b) % 2 == 0 ){
+        return $a + $b;
+    } else {
+        return $a + $b / 2;
+    }
+}
+
+echo mat(4, 10);
+echo mat(3, 8);
+ 
+
+
+echo "<br/>";
+
+
+$niza = ['a', 'b', 'c'];
+
+
+for($i = 0; i < count($studenti); $i++){
+    echo $studenti[$i]['prezime'];
+}
 
 
 ?>
+
+
 
 
